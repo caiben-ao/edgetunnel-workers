@@ -10,11 +10,12 @@ keep_vars = true
 
 [env.master]
 kv_namespaces = [
-  { binding = "KV", id = "08a68bd827d54ee0bd8e8dd94a47afb5" }  # 项目1的KV
+  { binding = "KV", id = "08a68bd827d54ee0bd8e8dd94a47afb5" }  # 主账号的KV（243405011@qq.com）
 ]
 
 [env.slave]
 kv_namespaces = [
-  { binding = "KV", id = "aca1fe0a47fd47a09910ef555de360e8" }  # 项目2的KV
+  { binding = "KV", id = "aca1fe0a47fd47a09910ef555de360e8" }  # 备账号的KV（aocaiben@outlook.com）
 ]
+
 

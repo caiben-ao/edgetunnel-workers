@@ -18,5 +18,9 @@ kv_namespaces = [
   { binding = "KV", id = "aca1fe0a47fd47a09910ef555de360e8" }  # 备账号的KV（aocaiben@outlook.com）
 ]
 
+[env.test]
+kv_namespaces = [
+  { binding = "KV", id = "7e67d01b5232499bbda060f5adeb77c6" }  # 测试账号的KV
+]
 
 

@@ -1,3 +1,6 @@
+# Ignore wrangler config
+/wrangler.toml
+
 # Demo 目录
 demo/
 

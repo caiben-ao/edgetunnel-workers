@@ -2,7 +2,18 @@ name = "v20251104"
 main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
-
+legacy_env = true
 #[[kv_namespaces]]
 #binding = "KV"			#KV绑定名默认不可修改
+
 #id = ""				#KV数据库id
+
+[env.master]
+kv_namespaces = [
+  { binding = "KV", id = "08a68bd827d54ee0bd8e8dd94a47afb5" }  # 主账号的KV（243405011@qq.com）
+]
+
+[env.slave]
+kv_namespaces = [
+  { binding = "KV", id = "aca1fe0a47fd47a09910ef555de360e8" }  # 备账号的KV（aocaiben@outlook.com）
+]
